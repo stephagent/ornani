@@ -1,0 +1,92 @@
+import { useState } from "react";
+import { Menu, X, Phone } from "lucide-react";
+import { Button } from "@/components/ui/button";
+
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const navLinks = [
+    { name: "PORTFOLIO", href: "#portfolio" },
+    { name: "HOME SEARCH", href: "#search" },
+    { name: "CONTACT US", href: "#contact" },
+  ];
+
+  return (
+    <nav className="absolute top-0 left-0 right-0 z-50">
+      <div className="container mx-auto px-6 py-4">
+        <div className="flex items-center justify-between">
+          {/* Logo */}
+          <div className="flex items-center">
+            <div className="w-16 h-16 rounded-full border-2 border-white/80 flex items-center justify-center bg-white/10 backdrop-blur-sm">
+              <div className="text-white text-center leading-tight">
+                <div className="text-xs font-light tracking-wider">A N I</div>
+                <div className="text-[8px] tracking-widest">ESTATE GROUP</div>
+              </div>
+            </div>
+          </div>
+
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex items-center gap-8">
+            {navLinks.map((link) => (
+              <a
+                key={link.name}
+                href={link.href}
+                className="text-white text-sm font-medium tracking-wider hover:text-white/80 transition-colors"
+              >
+                {link.name}
+              </a>
+            ))}
+            <a
+              href="tel:8057170450"
+              className="text-white text-sm font-medium tracking-wider flex items-center gap-2"
+            >
+              <Phone className="w-4 h-4" />
+              (805) 717-0450
+            </a>
+            <button
+              className="text-white"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              <Menu className="w-6 h-6" />
+            </button>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button
+            className="md:hidden text-white"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
+        </div>
+
+        {/* Mobile Navigation */}
+        {isOpen && (
+          <div className="md:hidden mt-4 pb-4 border-t border-white/20">
+            <div className="flex flex-col gap-4 pt-4">
+              {navLinks.map((link) => (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  className="text-white text-sm font-medium tracking-wider"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {link.name}
+                </a>
+              ))}
+              <a
+                href="tel:8057170450"
+                className="text-white text-sm font-medium tracking-wider flex items-center gap-2"
+              >
+                <Phone className="w-4 h-4" />
+                (805) 717-0450
+              </a>
+            </div>
+          </div>
+        )}
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
