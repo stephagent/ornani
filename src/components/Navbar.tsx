@@ -33,11 +33,11 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="tel:8057170450"
+              href="tel:8057558283"
               className="text-white text-sm font-medium tracking-wider flex items-center gap-2"
             >
               <Phone className="w-4 h-4" />
-              (805) 717-0450
+              (805) 755-8283
             </a>
             <button
               className="text-white"
@@ -71,11 +71,11 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href="tel:8057170450"
+                href="tel:8057558283"
                 className="text-white text-sm font-medium tracking-wider flex items-center gap-2"
               >
                 <Phone className="w-4 h-4" />
-                (805) 717-0450
+                (805) 755-8283
               </a>
             </div>
           </div>
