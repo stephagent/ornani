@@ -13,7 +13,7 @@ const Hero = () => {
 
       {/* Hero Content */}
       <div className="relative z-10 text-center text-white px-6 flex flex-col items-center">
-        <img src={logoWhite} alt="Ani Estate Group" className="h-32 md:h-44 mb-4" />
+        <img src={logoWhite} alt="Ani Estate Group" className="h-[512px] md:h-[704px] mb-4" />
         <p className="text-sm md:text-base tracking-[0.3em] uppercase font-light">
           DRE# 02180493
         </p>
