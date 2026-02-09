@@ -14,7 +14,7 @@ const MeetTheTeam = () => {
               <p>Stephanie Ornani | CA DRE# 02180493</p>
             </div>
 
-            <div className="space-y-4 text-muted-foreground leading-relaxed">
+            <div className="space-y-5 text-muted-foreground leading-relaxed text-sm md:text-base">
               <p>
                 The Ani Estate Group at Village Properties consists of Marcy
                 Dolle Bazzani and Stephanie Ornani, your powerful real estate
