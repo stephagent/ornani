@@ -18,15 +18,10 @@ const Hero = () => {
 
       {/* Hero Content */}
       <div className="relative z-10 text-center text-white px-6">
-        <img src={logoWhite} alt="Logo" className="h-96 w-auto mb-6" />
-        <div className="space-y-1">
-          <p className="text-sm md:text-base tracking-[0.3em] uppercase font-light">
-            Marcy Bazzani | CA DRE# 01402612
-          </p>
-          <p className="text-sm md:text-base tracking-[0.3em] uppercase font-light">
-            Stephanie Ornani | CA DRE# 02180493
-          </p>
-        </div>
+        <img src={logoWhite} alt="Logo" className="h-96 w-auto mb-4 mx-auto" />
+        <p className="text-sm md:text-base tracking-[0.3em] uppercase font-light">
+          DRE# 02180493
+        </p>
       </div>
     </section>
   );
