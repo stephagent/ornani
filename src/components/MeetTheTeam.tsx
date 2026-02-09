@@ -1,3 +1,5 @@
+import stephaniePhoto from "@/assets/stephanie.jpeg";
+
 const MeetTheTeam = () => {
   return <section className="py-20 px-6 bg-card">
       <div className="container mx-auto">
@@ -36,7 +38,7 @@ Stephanie was born and raised in Santa Barbara, with family roots dating back se
           {/* Team Image */}
           <div className="relative">
             <div className="aspect-[4/5] overflow-hidden rounded-sm">
-              <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Ani Estate Group Team" className="w-full h-full object-cover" />
+              <img src={stephaniePhoto} alt="Stephanie Ornani" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
