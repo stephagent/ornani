@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import logoWhite from "@/assets/logo-white.png";
 
 const Hero = () => {
   return (
@@ -17,9 +18,7 @@ const Hero = () => {
 
       {/* Hero Content */}
       <div className="relative z-10 text-center text-white px-6">
-        <h1 className="text-5xl md:text-7xl font-light tracking-wide mb-6">
-          Ani Estate Group
-        </h1>
+        <img src={logoWhite} alt="Logo" className="h-96 w-auto mb-6" />
         <div className="space-y-1">
           <p className="text-sm md:text-base tracking-[0.3em] uppercase font-light">
             Marcy Bazzani | CA DRE# 01402612
