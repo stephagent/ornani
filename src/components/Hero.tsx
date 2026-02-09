@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import logoWhite from "@/assets/logo-white.png";
 const Hero = () => {
   return <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
@@ -11,16 +12,11 @@ const Hero = () => {
       <Navbar />
 
       {/* Hero Content */}
-      <div className="relative z-10 text-center text-white px-6">
-        <h1 className="text-5xl md:text-7xl font-light tracking-wide mb-6">
-          Ani Estate Group
-        </h1>
-        <div className="space-y-1">
-          <p className="text-sm md:text-base tracking-[0.3em] uppercase font-light">
+      <div className="relative z-10 text-center text-white px-6 flex flex-col items-center">
+        <img src={logoWhite} alt="Ani Estate Group" className="h-32 md:h-44 mb-4" />
+        <p className="text-sm md:text-base tracking-[0.3em] uppercase font-light">
+          DRE# 02180493
         </p>
-          <p className="text-sm md:text-base tracking-[0.3em] uppercase font-light">
-        </p>
-        </div>
       </div>
     </section>;
 };
