@@ -6,7 +6,7 @@ const MeetTheTeam = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="space-y-6">
-            <h2 className="text-4xl md:text-5xl font-light text-foreground">Meet Stephanie Ornani</h2>
+            <h2 className="text-4xl md:text-5xl font-light text-foreground">Meet<br />Stephanie Ornani</h2>
             
             <div className="space-y-1 text-muted-foreground">
               <p>
