@@ -35,7 +35,7 @@ const ContactForm = () => {
               className="mt-1"
             />
             <label htmlFor="agree" className="text-sm text-muted-foreground leading-relaxed">
-              I agree to be contacted by Ani Estate Group via call, email, and
+              I agree to be contacted by Stephanie Ornani via call, email, and
               text for real estate services. To opt out, you can reply 'stop' at
               any time or reply 'help' for assistance. You can also click the
               unsubscribe link in the emails. Message and data rates may apply.
