@@ -1,10 +1,11 @@
 import Navbar from "./Navbar";
 import logoWhite from "@/assets/logo-white.png";
+import heroBackground from "@/assets/santa-barbara-coastline.jpg";
 const Hero = () => {
   return <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-      backgroundImage: `url('https://images.unsplash.com/photo-1558618666-fcd25c85f82e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2073&q=80')`
+      backgroundImage: `url(${heroBackground})`
     }}>
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/10 to-black/30" />
       </div>
