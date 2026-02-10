@@ -10,8 +10,7 @@ const ContactForm = () => {
     <section id="contact" className="py-20 px-6 bg-card">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-3xl md:text-4xl font-light text-center text-foreground mb-12">
-          Let Ani Estate Group Help You Get Into Your Santa
-          Barbara/Montecito Dream Home!
+          Connect with Stephanie Ornani for Exclusive Guidance in Santa Barbara and Montecito Real Estate.
         </h2>
 
         <form className="space-y-6">
