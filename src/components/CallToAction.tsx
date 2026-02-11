@@ -1,11 +1,12 @@
 import { Button } from "@/components/ui/button";
+import missionImage from "@/assets/santa-barbara-mission.png";
 
 const CallToAction = () => {
   return (
     <section
       className="relative py-32 px-6 bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: `url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2073&q=80')`,
+        backgroundImage: `url(${missionImage})`,
       }}
     >
       <div className="absolute inset-0 bg-black/40" />
