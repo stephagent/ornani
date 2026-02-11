@@ -17,18 +17,23 @@ const Navbar = () => {
   return (
     <nav className="absolute top-0 left-0 right-0 z-50">
       <div className="container mx-auto px-6 py-4">
-        <div className="flex items-center justify-center relative">
-          {/* Hamburger Menu - Far Left */}
+        <div className="flex items-center justify-between">
+          {/* Mobile Menu Button - Left */}
           <button
-            className="hidden md:block absolute left-0 text-white"
+            className="md:hidden text-white"
             onClick={() => setIsOpen(!isOpen)}
           >
-            <Menu className="w-6 h-6" />
+            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
-          {/* VP Logo - Top Right */}
-          <img src={vpLogoWhite} alt="Village Properties" className="absolute right-0 top-0 h-10" />
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-16">
+
+          {/* Desktop Navigation - Left */}
+          <div className="hidden md:flex items-center gap-10">
+            <button
+              className="text-white"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              <Menu className="w-6 h-6" />
+            </button>
             {navLinks.map((link) =>
               link.href.startsWith("/") ? (
                 <Link
@@ -57,13 +62,8 @@ const Navbar = () => {
             </a>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            className="md:hidden text-white"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          {/* VP Logo - Right */}
+          <img src={vpLogoWhite} alt="Village Properties" className="h-10 shrink-0" />
         </div>
 
         {/* Mobile Navigation */}
