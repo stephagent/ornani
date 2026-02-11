@@ -1,5 +1,5 @@
 import { Mail, MapPin, Phone, Facebook, Instagram } from "lucide-react";
-import logoWhite from "@/assets/logo-white.png";
+import websiteLogo from "@/assets/website-logo.png";
 import vpLogo from "@/assets/vp-logo.png";
 
 const Footer = () => {
@@ -10,9 +10,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 gap-12 mb-12">
           {/* Left Side */}
           <div>
-            <h3 className="text-2xl font-light text-foreground mb-8">
-              Ani Estate Group
-            </h3>
+            <img src={websiteLogo} alt="Stephanie Ornani" className="h-12" />
             
             <div className="space-y-4">
               <p className="text-muted-foreground">Get in Touch</p>
@@ -53,7 +51,6 @@ const Footer = () => {
           {/* Right Side - Logos */}
           <div className="flex items-center justify-center md:justify-end gap-8">
             <img src={vpLogo} alt="Village Properties" className="h-14" />
-            <img src={logoWhite} alt="Stephanie Ornani" className="h-16" />
           </div>
         </div>
 
