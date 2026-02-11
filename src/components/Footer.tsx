@@ -1,6 +1,6 @@
 import { Mail, MapPin, Phone, Facebook, Instagram } from "lucide-react";
 import logoWhite from "@/assets/logo-white.png";
-import vpLogo from "@/assets/vp-logo.jpg";
+import vpLogo from "@/assets/vp-logo.png";
 
 const Footer = () => {
   return (
