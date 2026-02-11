@@ -38,7 +38,7 @@ const Hero = () => {
       <Navbar />
 
       {/* Hero Content */}
-      <div className="relative z-10 text-center text-white px-6 flex flex-col items-center -mt-36">
+      <div className="relative z-10 text-center text-white px-6 flex flex-col items-center -mt-60">
         <img src={logoWhite} alt="Ani Estate Group" className="h-[267px] md:h-[370px] mb-4" />
         <p className="text-sm md:text-base tracking-[0.3em] uppercase font-light">
           DRE# 02180493
