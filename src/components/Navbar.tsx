@@ -3,6 +3,7 @@ import { Menu, X, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import logoWhite from "@/assets/logo-white.png";
+import vpLogoWhite from "@/assets/vp-logo-white.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +18,9 @@ const Navbar = () => {
   return (
     <nav className="absolute top-0 left-0 right-0 z-50">
       <div className="container mx-auto px-6 py-4">
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center relative">
+          {/* VP Logo - Top Right */}
+          <img src={vpLogoWhite} alt="Village Properties" className="absolute right-0 top-0 h-10" />
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-16">
             {navLinks.map((link) =>
