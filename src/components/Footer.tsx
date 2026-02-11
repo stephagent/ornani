@@ -19,29 +19,29 @@ const Footer = () => {
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
+                    <Phone className="w-5 h-5 text-muted-foreground mt-0.5" />
+                    <div>
+                      <p className="text-xs text-muted-foreground uppercase tracking-wider">STEPHANIE ORNANI</p>
+                      <p className="text-foreground">(805) 755-8283</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
                     <Mail className="w-5 h-5 text-muted-foreground mt-0.5" />
                     <div>
                       <p className="text-xs text-muted-foreground uppercase tracking-wider">EMAIL</p>
-                      <p className="text-foreground">STEPHANIE@VILLAGESITE.COM</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start gap-3">
-                    <MapPin className="w-5 h-5 text-muted-foreground mt-0.5" />
-                    <div>
-                      <p className="text-xs text-muted-foreground uppercase tracking-wider">ADDRESS</p>
-                      <p className="text-foreground">1250 COAST VILLAGE RD</p>
-                      <p className="text-foreground">SANTA BARBARA CA 93108</p>
+                      <p className="text-foreground text-sm break-all">STEPHANIE@VILLAGESITE.COM</p>
                     </div>
                   </div>
                 </div>
                 
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
-                    <Phone className="w-5 h-5 text-muted-foreground mt-0.5" />
+                    <MapPin className="w-5 h-5 text-muted-foreground mt-0.5" />
                     <div>
-                      <p className="text-xs text-muted-foreground uppercase tracking-wider">STEPHANIE ORNANI</p>
-                      <p className="text-foreground">(805) 755-8283</p>
+                      <p className="text-xs text-muted-foreground uppercase tracking-wider">ADDRESS</p>
+                      <p className="text-foreground">1250 COAST VILLAGE RD</p>
+                      <p className="text-foreground">SANTA BARBARA CA 93108</p>
                     </div>
                   </div>
                 </div>
