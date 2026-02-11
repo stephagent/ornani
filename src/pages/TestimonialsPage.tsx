@@ -13,6 +13,10 @@ const testimonials = [
     name: "Lisa A.",
     text: "My husband and I loved working with Steph to find our first home in Santa Barbara! She was patient, hardworking, knowledgeable and dedicated through many months of home searching. She has extensive knowledge of the area, school system, and much more that empowered us to make informed decisions with her guidance. Beyond her professionalism and expertise, Steph is truly a wonderful, kind-hearted person and fun to be around, making a stressful process easier and more enjoyable!",
   },
+  {
+    name: "James K.",
+    text: "Stephanie was the best realtor I've ever worked with, over a lifetime of buying and selling houses. Not only with her advice about how and how much to renovate before putting my house on the market, but she practically acted as a general contractor, getting bids for work to be done, meeting the subs at the house, settling on what needed to be done and what could be let go-all in consultation with me. We ended up getting a great realistic price after being on the market for only 2 weeks. I'd use her again in a heart beat.",
+  },
 ];
 
 const TestimonialsPage = () => {
