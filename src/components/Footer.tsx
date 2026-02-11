@@ -1,5 +1,6 @@
 import { Mail, MapPin, Phone, Facebook, Instagram } from "lucide-react";
 import logoWhite from "@/assets/logo-white.png";
+import vpLogo from "@/assets/vp-logo.jpg";
 
 const Footer = () => {
   return (
@@ -51,10 +52,7 @@ const Footer = () => {
 
           {/* Right Side - Logos */}
           <div className="flex items-center justify-center md:justify-end gap-8">
-            <div className="text-center">
-              <div className="text-lg font-medium text-foreground">VILLAGE</div>
-              <div className="text-xs text-muted-foreground">PROPERTIES</div>
-            </div>
+            <img src={vpLogo} alt="Village Properties" className="h-14" />
             <img src={logoWhite} alt="Stephanie Ornani" className="h-16" />
           </div>
         </div>
