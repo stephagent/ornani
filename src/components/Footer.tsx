@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 gap-12 mb-12">
           {/* Left Side */}
           <div>
-            <img src={websiteLogo} alt="Stephanie Ornani" className="h-12" />
+            <img src={websiteLogo} alt="Stephanie Ornani" className="h-60" />
             
             <div className="space-y-4">
               <p className="text-muted-foreground">Get in Touch</p>
