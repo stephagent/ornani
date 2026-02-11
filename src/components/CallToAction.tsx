@@ -17,11 +17,13 @@ const CallToAction = () => {
 
 
 
-        <a
-          href="tel:8057558283"
-          className="text-white text-lg tracking-wider hover:text-white/80 transition-colors"
-        >
-          CONTACT
+        <a href="tel:8057558283">
+          <Button
+            variant="outline"
+            className="border-white text-white hover:bg-white hover:text-foreground tracking-wider px-12"
+          >
+            CONTACT
+          </Button>
         </a>
       </div>
     </section>
