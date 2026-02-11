@@ -20,7 +20,7 @@ const CallToAction = () => {
         <a href="tel:8057558283">
           <Button
             variant="outline"
-            className="border-white text-white hover:bg-white hover:text-foreground tracking-wider px-12"
+            className="border-white bg-white text-foreground hover:bg-white/90 tracking-wider px-12"
           >
             CONTACT
           </Button>
