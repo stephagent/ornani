@@ -15,8 +15,7 @@ const Footer = () => {
             <div className="space-y-4">
               <p className="text-muted-foreground">Get in Touch</p>
               
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="space-y-4">
+              <div className="space-y-4">
                   <div className="flex items-start gap-3">
                     <Phone className="w-5 h-5 text-muted-foreground mt-0.5" />
                     <div>
@@ -29,21 +28,17 @@ const Footer = () => {
                     <Mail className="w-5 h-5 text-muted-foreground mt-0.5" />
                     <div>
                       <p className="text-xs text-muted-foreground uppercase tracking-wider">EMAIL</p>
-                      <p className="text-foreground text-sm break-all">STEPHANIE@VILLAGESITE.COM</p>
+                      <p className="text-foreground text-sm">STEPHANIE@VILLAGESITE.COM</p>
                     </div>
                   </div>
-                </div>
-                
-                <div className="space-y-4">
+
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-muted-foreground mt-0.5" />
                     <div>
                       <p className="text-xs text-muted-foreground uppercase tracking-wider">ADDRESS</p>
-                      <p className="text-foreground">1250 COAST VILLAGE RD</p>
-                      <p className="text-foreground">SANTA BARBARA CA 93108</p>
+                      <p className="text-foreground">1250 COAST VILLAGE RD, SANTA BARBARA CA 93108</p>
                     </div>
                   </div>
-                </div>
               </div>
             </div>
           </div>
