@@ -18,6 +18,13 @@ const Navbar = () => {
     <nav className="absolute top-0 left-0 right-0 z-50">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-center relative">
+          {/* Hamburger Menu - Far Left */}
+          <button
+            className="hidden md:block absolute left-0 text-white"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            <Menu className="w-6 h-6" />
+          </button>
           {/* VP Logo - Top Right */}
           <img src={vpLogoWhite} alt="Village Properties" className="absolute right-0 top-0 h-10" />
           {/* Desktop Navigation */}
@@ -48,12 +55,6 @@ const Navbar = () => {
               <Phone className="w-4 h-4" />
               (805) 755-8283
             </a>
-            <button
-              className="text-white"
-              onClick={() => setIsOpen(!isOpen)}
-            >
-              <Menu className="w-6 h-6" />
-            </button>
           </div>
 
           {/* Mobile Menu Button */}
