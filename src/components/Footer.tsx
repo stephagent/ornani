@@ -4,7 +4,7 @@ import vpLogo from "@/assets/vp-logo.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-card py-16 px-6">
+    <footer id="contact" className="bg-card py-16 px-6">
       <div className="container mx-auto">
         {/* Main Footer Content */}
         <div className="grid md:grid-cols-2 gap-12 mb-12">
