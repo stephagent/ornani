@@ -21,7 +21,7 @@ const Footer = () => {
                     <Mail className="w-5 h-5 text-muted-foreground mt-0.5" />
                     <div>
                       <p className="text-xs text-muted-foreground uppercase tracking-wider">EMAIL</p>
-                      <p className="text-foreground">ANI@VILLAGESITE.COM</p>
+                      <p className="text-foreground">STEPHANIE@VILLAGESITE.COM</p>
                     </div>
                   </div>
                   
