@@ -1,4 +1,5 @@
 import { Mail, MapPin, Phone, Facebook, Instagram } from "lucide-react";
+import logoWhite from "@/assets/logo-white.png";
 
 const Footer = () => {
   return (
@@ -54,12 +55,7 @@ const Footer = () => {
               <div className="text-lg font-medium text-foreground">VILLAGE</div>
               <div className="text-xs text-muted-foreground">PROPERTIES</div>
             </div>
-            <div className="w-16 h-16 rounded-full border-2 border-foreground/30 flex items-center justify-center">
-              <div className="text-center leading-tight">
-                <div className="text-xs font-light tracking-wider text-foreground">A N I</div>
-                <div className="text-[8px] tracking-widest text-muted-foreground">ESTATE GROUP</div>
-              </div>
-            </div>
+            <img src={logoWhite} alt="Stephanie Ornani" className="h-16 invert dark:invert-0" />
           </div>
         </div>
 
