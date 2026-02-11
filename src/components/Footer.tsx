@@ -78,7 +78,7 @@ const Footer = () => {
         <div className="border-t border-border pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-4">
             <span className="text-sm text-muted-foreground">
-              Real Estate Website Design by Luxury Presence
+              Copyright © 2026 | Privacy Policy
             </span>
           </div>
           
