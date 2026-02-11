@@ -67,12 +67,6 @@ const Footer = () => {
               Copyright © 2026 | Privacy Policy
             </span>
           </div>
-          
-          <div className="flex items-center gap-4">
-            <span className="text-sm text-muted-foreground">
-              Copyright © 2026 | Privacy Policy
-            </span>
-          </div>
 
           <div className="flex items-center gap-4">
             <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
