@@ -1,18 +1,20 @@
 import Navbar from "./Navbar";
 import logoWhite from "@/assets/logo-white.png";
+import heroBackground from "@/assets/santa-barbara-coastline.jpg";
 
 const Hero = () => {
   return <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
-      {/* Background Video */}
+      {/* Background Video with Image Fallback */}
       <div className="absolute inset-0">
         <video
           autoPlay
           muted
           loop
           playsInline
+          poster={heroBackground}
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="/hero-video.mov" type="video/quicktime" />
+          <source src="/hero-video.mov" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/10 to-black/30" />
       </div>
