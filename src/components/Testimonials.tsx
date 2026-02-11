@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Testimonials = () => {
   return (
@@ -39,12 +40,14 @@ const Testimonials = () => {
               </p>
               <p className="text-sm tracking-wider">— DANA S.</p>
               
-              <Button
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-foreground tracking-wider px-8 mt-4"
-              >
-                VIEW ALL
-              </Button>
+              <Link to="/testimonials">
+                <Button
+                  variant="outline"
+                  className="border-white text-white hover:bg-white hover:text-foreground tracking-wider px-8 mt-4"
+                >
+                  VIEW ALL
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
