@@ -55,7 +55,7 @@ const Footer = () => {
               <div className="text-lg font-medium text-foreground">VILLAGE</div>
               <div className="text-xs text-muted-foreground">PROPERTIES</div>
             </div>
-            <img src={logoWhite} alt="Stephanie Ornani" className="h-16 invert dark:invert-0" />
+            <img src={logoWhite} alt="Stephanie Ornani" className="h-16" />
           </div>
         </div>
 
