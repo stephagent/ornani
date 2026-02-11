@@ -39,14 +39,6 @@ const Footer = () => {
                   <div className="flex items-start gap-3">
                     <Phone className="w-5 h-5 text-muted-foreground mt-0.5" />
                     <div>
-                      <p className="text-xs text-muted-foreground uppercase tracking-wider">MARCY BAZZANI</p>
-                      <p className="text-foreground">(805) 717-0450</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start gap-3">
-                    <Phone className="w-5 h-5 text-muted-foreground mt-0.5" />
-                    <div>
                       <p className="text-xs text-muted-foreground uppercase tracking-wider">STEPHANIE ORNANI</p>
                       <p className="text-foreground">(805) 755-8283</p>
                     </div>
@@ -73,7 +65,6 @@ const Footer = () => {
 
         {/* License Info */}
         <div className="text-sm text-muted-foreground space-y-2 mb-8">
-          <p>Marcy Bazzani | CA DRE# 01402612</p>
           <p>Stephanie Ornani | CA DRE# 02180493</p>
           <p>Village Properties, Inc. | CA DRE# 01206734</p>
         </div>
