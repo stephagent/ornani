@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import logoWhite from "@/assets/logo-white.png";
 
@@ -8,6 +9,7 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "PORTFOLIO", href: "#portfolio" },
+    { name: "TESTIMONIALS", href: "/testimonials" },
     { name: "HOME SEARCH", href: "#search" },
     { name: "CONTACT", href: "#contact" },
   ];
@@ -18,15 +20,25 @@ const Navbar = () => {
         <div className="flex items-center justify-center">
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-16">
-            {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="text-white text-sm font-medium tracking-wider hover:text-white/80 transition-colors"
-              >
-                {link.name}
-              </a>
-            ))}
+            {navLinks.map((link) =>
+              link.href.startsWith("/") ? (
+                <Link
+                  key={link.name}
+                  to={link.href}
+                  className="text-white text-sm font-medium tracking-wider hover:text-white/80 transition-colors"
+                >
+                  {link.name}
+                </Link>
+              ) : (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  className="text-white text-sm font-medium tracking-wider hover:text-white/80 transition-colors"
+                >
+                  {link.name}
+                </a>
+              )
+            )}
             <a
               href="tel:8057558283"
               className="text-white text-sm font-medium tracking-wider flex items-center gap-2"
@@ -55,16 +67,27 @@ const Navbar = () => {
         {isOpen && (
           <div className="md:hidden mt-4 pb-4 border-t border-white/20">
             <div className="flex flex-col gap-4 pt-4">
-              {navLinks.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.href}
-                  className="text-white text-sm font-medium tracking-wider"
-                  onClick={() => setIsOpen(false)}
-                >
-                  {link.name}
-                </a>
-              ))}
+              {navLinks.map((link) =>
+                link.href.startsWith("/") ? (
+                  <Link
+                    key={link.name}
+                    to={link.href}
+                    className="text-white text-sm font-medium tracking-wider"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {link.name}
+                  </Link>
+                ) : (
+                  <a
+                    key={link.name}
+                    href={link.href}
+                    className="text-white text-sm font-medium tracking-wider"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {link.name}
+                  </a>
+                )
+              )}
               <a
                 href="tel:8057558283"
                 className="text-white text-sm font-medium tracking-wider flex items-center gap-2"

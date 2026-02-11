@@ -4,7 +4,6 @@ import AboutContinued from "@/components/AboutContinued";
 import FeatureGrid from "@/components/FeatureGrid";
 import Affiliations from "@/components/Affiliations";
 import Portfolio from "@/components/Portfolio";
-import Testimonials from "@/components/Testimonials";
 import ContactForm from "@/components/ContactForm";
 import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
@@ -18,7 +17,7 @@ const Index = () => {
       <FeatureGrid />
       <Affiliations />
       <Portfolio />
-      <Testimonials />
+      <ContactForm />
       <ContactForm />
       <CallToAction />
       <Footer />
