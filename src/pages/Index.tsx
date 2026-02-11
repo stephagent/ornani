@@ -3,7 +3,7 @@ import MeetTheTeam from "@/components/MeetTheTeam";
 import AboutContinued from "@/components/AboutContinued";
 import FeatureGrid from "@/components/FeatureGrid";
 import Affiliations from "@/components/Affiliations";
-import Portfolio from "@/components/Portfolio";
+
 import ContactForm from "@/components/ContactForm";
 import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
@@ -16,7 +16,7 @@ const Index = () => {
       <AboutContinued />
       <FeatureGrid />
       <Affiliations />
-      <Portfolio />
+      
       <ContactForm />
       <CallToAction />
       <Footer />
