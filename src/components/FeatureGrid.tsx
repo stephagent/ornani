@@ -21,7 +21,7 @@ const FeatureGrid = () => {
       size: "small",
     },
     {
-      title: "HOW MUCH IS YOUR PROPERTY WORTH",
+      title: "HOW MUCH IS YOUR PROPERTY WORTH?",
       image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       size: "small",
       isHighlight: true,
@@ -109,7 +109,7 @@ const FeatureGrid = () => {
           <div className="relative group cursor-pointer overflow-hidden bg-primary">
             <div className="aspect-square flex items-center justify-center p-4 text-center">
               <h3 className="text-white text-lg md:text-xl font-bold leading-tight">
-                HOW MUCH<br />IS YOUR<br />PROPERTY<br />WORTH
+                HOW MUCH<br />IS YOUR<br />PROPERTY<br />WORTH?
               </h3>
             </div>
           </div>
