@@ -9,6 +9,10 @@ const testimonials = [
     name: "Dana S.",
     text: "Stephanie is a true Real Estate professional. It's clear that she has a passion for and deep understanding of the market in Santa Barbara. She provided details and insight into the different neighborhoods that comprise the area and guided us through a remarkably easy and successful transaction. She is super responsive and has continued to provide answers and excellent local referrals. Will definitely work with her again and highly recommend.",
   },
+  {
+    name: "Lisa A.",
+    text: "My husband and I loved working with Steph to find our first home in Santa Barbara! She was patient, hardworking, knowledgeable and dedicated through many months of home searching. She has extensive knowledge of the area, school system, and much more that empowered us to make informed decisions with her guidance. Beyond her professionalism and expertise, Steph is truly a wonderful, kind-hearted person and fun to be around, making a stressful process easier and more enjoyable!",
+  },
 ];
 
 const TestimonialsPage = () => {
