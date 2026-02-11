@@ -39,7 +39,7 @@ const Navbar = () => {
                 <Link
                   key={link.name}
                   to={link.href}
-                  className="text-white text-sm font-medium tracking-wider hover:text-white/80 transition-colors"
+                  className="text-white text-sm font-medium tracking-wider hover:text-white/80 transition-colors" style={{ fontFamily: "'Montserrat', sans-serif" }}
                 >
                   {link.name}
                 </Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-white text-sm font-medium tracking-wider hover:text-white/80 transition-colors"
+                  className="text-white text-sm font-medium tracking-wider hover:text-white/80 transition-colors" style={{ fontFamily: "'Montserrat', sans-serif" }}
                 >
                   {link.name}
                 </a>
@@ -55,7 +55,7 @@ const Navbar = () => {
             )}
             <a
               href="tel:8057558283"
-              className="text-white text-sm font-medium tracking-wider flex items-center gap-2"
+              className="text-white text-sm font-medium tracking-wider flex items-center gap-2" style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               <Phone className="w-4 h-4" />
               (805) 755-8283
@@ -75,7 +75,7 @@ const Navbar = () => {
                   <Link
                     key={link.name}
                     to={link.href}
-                    className="text-white text-sm font-medium tracking-wider"
+                    className="text-white text-sm font-medium tracking-wider" style={{ fontFamily: "'Montserrat', sans-serif" }}
                     onClick={() => setIsOpen(false)}
                   >
                     {link.name}
@@ -84,7 +84,7 @@ const Navbar = () => {
                   <a
                     key={link.name}
                     href={link.href}
-                    className="text-white text-sm font-medium tracking-wider"
+                    className="text-white text-sm font-medium tracking-wider" style={{ fontFamily: "'Montserrat', sans-serif" }}
                     onClick={() => setIsOpen(false)}
                   >
                     {link.name}
@@ -93,7 +93,7 @@ const Navbar = () => {
               )}
               <a
                 href="tel:8057558283"
-                className="text-white text-sm font-medium tracking-wider flex items-center gap-2"
+                className="text-white text-sm font-medium tracking-wider flex items-center gap-2" style={{ fontFamily: "'Montserrat', sans-serif" }}
               >
                 <Phone className="w-4 h-4" />
                 (805) 755-8283
