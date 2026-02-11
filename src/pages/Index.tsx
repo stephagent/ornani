@@ -2,7 +2,7 @@ import Hero from "@/components/Hero";
 import MeetTheTeam from "@/components/MeetTheTeam";
 import AboutContinued from "@/components/AboutContinued";
 import FeatureGrid from "@/components/FeatureGrid";
-import Affiliations from "@/components/Affiliations";
+
 
 import ContactForm from "@/components/ContactForm";
 import CallToAction from "@/components/CallToAction";
@@ -15,7 +15,7 @@ const Index = () => {
       <MeetTheTeam />
       <AboutContinued />
       <FeatureGrid />
-      <Affiliations />
+      
       
       <ContactForm />
       <CallToAction />
