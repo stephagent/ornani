@@ -15,14 +15,7 @@ const CallToAction = () => {
           Let's make your next move a success—reach out today.
         </h2>
 
-        <p className="text-lg font-light leading-relaxed mb-4 max-w-3xl mx-auto">
-          Ani Estate Group have been my realtors for several successful real
-          estate transactions. Each time, I have found their knowledge,
-          expertise and attention to detail impressive. They are both
-          professional and personable. They provide a high level of
-          attentiveness to their clients and are extremely efficient.
-        </p>
-        <p className="text-sm mb-8">-EJ</p>
+
 
         <Button
           variant="outline"
