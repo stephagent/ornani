@@ -12,9 +12,7 @@ const CallToAction = () => {
 
       <div className="relative z-10 container mx-auto max-w-4xl text-center text-white">
         <h2 className="text-3xl md:text-5xl font-light mb-8 leading-relaxed">
-          Hire us, you get us, no lockboxes,
-          <br />
-          no assistants.
+          Let's make your next move a success—reach out today.
         </h2>
 
         <p className="text-lg font-light leading-relaxed mb-4 max-w-3xl mx-auto">
