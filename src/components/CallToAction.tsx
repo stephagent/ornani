@@ -4,7 +4,7 @@ import missionImage from "@/assets/santa-barbara-mission.png";
 const CallToAction = () => {
   return (
     <section
-      className="relative py-32 px-6 bg-cover bg-center bg-no-repeat"
+      className="relative py-32 px-6 bg-cover bg-[center_top_30%] bg-no-repeat"
       style={{
         backgroundImage: `url(${missionImage})`,
       }}
