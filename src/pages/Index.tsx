@@ -18,7 +18,6 @@ const Index = () => {
       <Affiliations />
       <Portfolio />
       <ContactForm />
-      <ContactForm />
       <CallToAction />
       <Footer />
     </main>
