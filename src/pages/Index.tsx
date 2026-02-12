@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
 import MeetTheTeam from "@/components/MeetTheTeam";
 import AboutContinued from "@/components/AboutContinued";
-import FeatureGrid from "@/components/FeatureGrid";
+
 
 
 import ContactForm from "@/components/ContactForm";
@@ -14,7 +14,7 @@ const Index = () => {
       <Hero />
       <MeetTheTeam />
       <AboutContinued />
-      <FeatureGrid />
+      
       
       
       <ContactForm />
