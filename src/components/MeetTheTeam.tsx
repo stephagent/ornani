@@ -13,7 +13,7 @@ const MeetTheTeam = () => {
             </div>
 
             <div className="space-y-4 text-muted-foreground leading-relaxed">
-              <p>Stephanie Ornani is a native Santa Barbarian with deep community roots, local market expertise, and an interior design background that elevates every client experience. She helps buyers uncover a home's true potential and guides sellers in presenting their property to attract maximum interest and strong results.</p>
+              <p>Stephanie is a native Santa Barbarian with deep community roots, local market expertise, and an interior design background that elevates every client experience. She helps buyers uncover a home's true potential and guides sellers in presenting their property to attract maximum interest and strong results.</p>
               <p>When you sell with Stephanie, you gain a trusted strategic partner focused on positioning your home for exceptional visibility and the best possible outcome.</p>
               <p>Because when it comes to your home, who you work with matters.</p>
             </div>
