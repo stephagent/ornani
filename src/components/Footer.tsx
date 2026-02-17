@@ -45,7 +45,9 @@ const Footer = () => {
 
           {/* Right Side - Logos */}
           <div className="flex items-center justify-center md:justify-end gap-8">
-            <img src={vpLogo} alt="Village Properties" className="h-14" />
+            <a href="https://villagesite.com/agent/stephanie-ornani" target="_blank" rel="noopener noreferrer">
+              <img src={vpLogo} alt="Village Properties" className="h-14" />
+            </a>
           </div>
         </div>
 

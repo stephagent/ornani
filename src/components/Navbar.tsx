@@ -63,7 +63,9 @@ const Navbar = () => {
           </div>
 
           {/* VP Logo - Right */}
-          <img src={vpLogoWhite} alt="Village Properties" className="h-10 shrink-0" />
+          <a href="https://villagesite.com/agent/stephanie-ornani" target="_blank" rel="noopener noreferrer">
+            <img src={vpLogoWhite} alt="Village Properties" className="h-10 shrink-0" />
+          </a>
         </div>
 
         {/* Mobile Navigation */}
