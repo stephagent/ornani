@@ -20,7 +20,7 @@ const MeetTheTeam = () => {
           </div>
 
           {/* Team Image */}
-          <div className="relative">
+          <div className="relative w-[90%] mx-auto">
             <div className="aspect-[4/5] overflow-hidden rounded-sm">
               <img src={stephaniePhoto} alt="Stephanie Ornani" className="w-full h-full object-cover" />
             </div>
