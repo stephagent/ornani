@@ -13,9 +13,9 @@ const MeetTheTeam = () => {
             </div>
 
             <div className="space-y-4 text-muted-foreground leading-relaxed">
-              <p>Stephanie is a native Santa Barbarian with deep community roots, local market expertise, and an interior design background that elevates every client experience. She helps buyers uncover a home's true potential and guides sellers in presenting their property to attract maximum interest and strong results.</p>
-              <p>When you sell with Stephanie, you gain a trusted strategic partner focused on positioning your home for exceptional visibility and the best possible outcome.</p>
-              <p>Because when it comes to your home, who you work with matters.</p>
+              <p>Stephanie Ornani is a native Santa Barbarian with deep generational roots in the community and a strong understanding of the local real estate market. With a background in interior design and an extensive network of trusted local connections, she offers clients a uniquely full-service approach to buying and selling homes.</p>
+              <p>Whether you're searching for a turnkey coastal retreat or a charming fixer-upper, Stephanie brings a trained eye for potential and a passion for helping clients envision what a home can become. When selling, she excels at positioning properties to maximize appeal through thoughtful presentation and strategic marketing.</p>
+              <p>Deeply involved in Santa Barbara, Stephanie has served for eight years with the National Charity League, spent time on the Santa Barbara High School PTSA Board, and is currently an active member of Rotary. She is dedicated to delivering exceptional results — because who you work with truly matters.</p>
             </div>
           </div>
 
