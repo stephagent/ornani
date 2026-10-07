@@ -17,6 +17,10 @@ const testimonials = [
     name: "James K.",
     text: "Stephanie was the best realtor I've ever worked with, over a lifetime of buying and selling houses. Not only with her advice about how and how much to renovate before putting my house on the market, but she practically acted as a general contractor, getting bids for work to be done, meeting the subs at the house, settling on what needed to be done and what could be let go-all in consultation with me. We ended up getting a great realistic price after being on the market for only 2 weeks. I'd use her again in a heart beat.",
   },
+  {
+    name: "William S.",
+    text: "Your willingness to pitch in is exceptional. You take the idea of a Full Service Real Estate Agent to a whole new level. I have bought and sold over 40 properties from single family homes to duplexes, triplexes, quadruplexes, hexaplexes, octaplexes, up to 32 unit apartment buildings as well as several commercial buildings, and I have never had an agent on either end of the transaction that had your willingness to go so far above and beyond to assist the seller in preparing a property for sale. You are a one of a kind agent and I appreciate your hard work.",
+  },
 ];
 
 const TestimonialsPage = () => {
